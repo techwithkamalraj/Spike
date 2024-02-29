@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 80px;
+    background-color: green;
+    display: flex;
+    justify-content: space-evenly;
+}
+#user{
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+    position: relative;
+    right: 230px;
+}
+#phone{
+    display: flex;
+    color: white;
+    font-size: 25px;
+    margin-top: 23px;
+    position: relative;
+    right: 430px;
+}
+p{
+    padding-left: 15px;
+}
+#logo{
+    position: relative;
+    right: 300px;
+    margin-top: 17px;
+    color: white;
+}
+#ham{
+    position: relative;
+    left: 140px;
+    margin-top: 17px;
+    color: white;
+    font-size:35px;
+}
+
+
+/* SECTION */
+
+.section{
+    height: 240px;
+    background-color: white;
+}
+#sec{
+    position: relative;
+    left: 40px;
+    top: 30px;
+}
+hr{
+    color: green;
+}
+#tag{
+    font-style: italic;
+    font-size: 50px;
+}
+
+
+.banner{
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('happy_family.jpg');
+}
+
+#getstarted{
+    position: relative;
+    left: 6900px;
+    color: white;
+    background-color: greenyellow;
+    padding: 10px 40px;
+}
+
+.section2{
+    display: flex;
+    justify-content: space-around;
+}
+#desc{
+    position: relative;
+    right: 10px;
+}
+#pestgarden{
+    height: 400px;
+    position: relative;
+    left: 130px;
+}
+#head{
+    font-size: 40px;
+}
+
+#section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: darkgreen;
+}
+#statement{
+    font-family: sans-serif;
+    color: white;
+}
+#housedesign{
+    height: 400px;
+    position: relative;
+    left: 200px;
+}
+.accordion{
+    /* padding: 10px; */
+    border: 2px solid green;
+}
+
+
+
+/* /// */
+.section4{
+ 
+  background-color: beige;
+}
+#message{
+    padding-top: 30px;
+    background-color: beige;
+    text-align: center;
+}
+.accordion {
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .accordion input {
+    display: none;
+  }
+  
+  .accordion label {
+    display: block;
+    padding: 10px;
+    background-color: #e0e0e0;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  .accordion-content {
+    display: none;
+    padding: 10px;
+  }
+  
+  .accordion input:checked + label + .accordion-content {
+    display: block;
+  }
+
+.section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+
+#pestcontrol{
+    height: 350px;
+}
+
+
+/* // Section 5 */
+
+.section5{
+    width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid green;
+}
+
+#icons {
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; /* Ensures it behaves as a block-level element */
+  }
+p{
+    font-family: sans-serif;
+}  
+h3{
+    text-align: center;
+}
+
+/* Comments */
+.comments{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.review-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    margin: 10px;
+    text-align: center;
+  }
+
+  .review-card h3 {
+    margin-top: 0;
+    color: #333;
+  }
+
+  .review-card p {
+    color: #666;
+  }
+
+  .rating {
+    color: #FFD700; /* Gold color for stars */
+  }
+/* Clients */
+
+.clients{
+  display: flex;
+  justify-content: space-evenly;
+}
+#tata{
+    height: 30px;
+}
+#ubi{
+    height: 50px;
+    width: 200px;
+}
+#rbi{
+    height: 160px;
+    position: relative;
+    bottom: 40px;
+}
+#barc{
+   position: relative;
+   bottom: 70px;
+}
+
+/* SITEMAP */
+
+#sitemap {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 50px;
+  }
+
+  h2 {
+    color: #0066cc;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+  #sitemap{
+    display: flex;
+    justify-content: space-between;
+  }
